@@ -3,12 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
   pointer-events: none;
 }
 
+
 .App-header {
-  background-color: #fff;
+  background-color: #d2d2d2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,30 +19,37 @@
   color: white;
 }
 
+
 .Title{
   margin-top: 0px;
+  margin-bottom: 0px;
   color: #3C77FF;
-  font-size: 100px;
+
 }
 
 .Subtitle{
-  margin-top: -50px;
+  margin-top: 0px;
   color: #000000;
-  font-size: 50px;
+
 }
 
 .card {
-  margin-top: -25px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   width: fill;
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   color: #fff;
-  background-color: #3C77FF;
-  border-radius: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  
 }
 
-.telefone {
-  text-align: space-between;
+.telefone1 {
+  margin-top: 0px;
+  color: #000000;
+  justify-content: space-around;
 }
