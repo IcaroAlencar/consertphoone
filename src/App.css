@@ -34,14 +34,22 @@
 }
 
 .card {
-
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   color: #fff;
   background-color: #fff;
   border-radius: 10px;
-  
+}
+
+.cardPhone{
+  padding: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #3C77FF;
+  border-radius: 10px;
 }
 
 .telefone1 {

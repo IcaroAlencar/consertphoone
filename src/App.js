@@ -12,7 +12,7 @@ function App() {
           Assistência 
           Técnica de Celulares, Tablets e 
           Computadores</p>
-          <p className = "telefone1">(65) 9 9952-0374 (65) 9 9649-6663</p>
+          <p className = "cardPhone">(65) 9 9952-0374 (65) 9 9649-6663</p>
         </div>
       </header>
     </div>
