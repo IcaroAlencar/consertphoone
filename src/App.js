@@ -6,17 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className = "Title">ConsertPhoone</h1>
+        <p className = "Subtitle">
+        Assistência 
+        Técnica de Celulares, Tablets e 
+        Computadores</p>
+        <div className = "card">
+          <p className="telefone">(65) 9 9952-0374 (65) 9 9649-6663</p>    
+          </div>
       </header>
     </div>
   );
