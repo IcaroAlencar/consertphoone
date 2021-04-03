@@ -34,12 +34,8 @@
 }
 
 .card {
+
   padding: 50px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   color: #fff;
