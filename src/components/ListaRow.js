@@ -1,10 +1,12 @@
 import React from 'react';
 import './ListaRow.css';
 
-export default (titulo) =>  {
+const Lista = (titulo) =>  {
     return(
         <div>
         
         </div>
     );
 }
+
+export default Lista;

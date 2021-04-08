@@ -5,7 +5,7 @@ import ListaRow from './components/ListaRow';
 import Featured from './components/Featured';
 import Header from './components/Header';
 
-export default () => {
+const App = () => {
 
 
   const [blackHeader, setBlackHeader] = useState(false);
@@ -30,7 +30,7 @@ export default () => {
   return(
     <div className = "Principal">
 
-     {/*<Header  black ={blackHeader}/> */} 
+     <Header  black ={blackHeader}/> 
 
       <Featured/>
 
@@ -43,3 +43,5 @@ export default () => {
   );
 
 }
+
+export default App;

@@ -3,7 +3,7 @@ import './Featured.css';
 
 import destaque from '../destaque.jpg'
 
-export default () =>{
+const Featured = () =>{
     return(
         <section className = "featured" style={{
             backgroundSize: 'cover',
@@ -19,3 +19,5 @@ export default () =>{
         </section>
     );
 }
+
+export default Featured;
