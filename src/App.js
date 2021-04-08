@@ -1,22 +1,45 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react';
+import ListaRow from './components/ListaRow';
+import Featured from './components/Featured';
+import Header from './components/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="card">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className = "Title">ConsertPhoone</h1>
-          <p className = "Subtitle">
-          Assistência 
-          Técnica de Celulares, Tablets e 
-          Computadores</p>
-          <p className = "cardPhone">(65) 9 9952-0374 (65) 9 9649-6663</p>
-        </div>
-      </header>
+export default () => {
+
+
+  const [blackHeader, setBlackHeader] = useState(false);
+  const [Lista, /*setLista*/] = useState([{Titulo: 'Tela da Lista'}]);
+
+  useEffect(() => {
+    const scrollListener = () =>{
+      
+      if(window.scrollY > 10){
+        setBlackHeader(true);
+      }else{
+        setBlackHeader(false);
+      }
+
+    }
+    window.addEventListener('scroll', scrollListener);
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  }, []);
+
+  return(
+    <div className = "Principal">
+
+     {/*<Header  black ={blackHeader}/> */} 
+
+      <Featured/>
+
+      <section className = "Listas">
+        {Lista.map((Titulo) => (
+          <ListaRow Titulo={Titulo.Titulo}/>
+        ))}
+      </section>
     </div>
   );
-}
 
-export default App;
+}

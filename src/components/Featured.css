@@ -1,0 +1,24 @@
+.featured{
+    height: 100vh;
+    border-radius: 50px;
+}
+
+.featured--vertical{
+    width: inherit;
+    height: inherit;
+    /*background: linear-gradient(to top, #111 10%, transparent 90%) ;*/
+}
+
+.featured--horizontal{
+    width: inherit;
+    height: inherit;
+   /*background: linear-gradient(to right, #111 10%, transparent 70%) ;*/
+}
+
+@media (max-width: 760px){
+    .featured{
+        height: 80vh;
+        border-radius: 25px;
+        margin-right: 0px;
+    }
+}

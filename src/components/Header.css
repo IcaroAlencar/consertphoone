@@ -1,0 +1,50 @@
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    transition: all ease 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header.black{
+    background-color: #fff;
+}
+
+.header--logo{
+    height: 100px;
+}
+
+.header--logo img{
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 760px){
+    header{
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        transition: all ease 0.5s;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header--logo {
+        height: 60px;
+    }
+}
