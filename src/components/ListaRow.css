@@ -1,0 +1,56 @@
+.Card{
+    display: flex;
+    background-color: #fff;
+    width: fill;
+    height: 356px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt{
+    color: #000;
+}
+
+#clicavel:hover{
+color: red;
+}
+
+#clicavel{
+    cursor: pointer;
+}
+
+
+@media (max-width: 760px){
+    .Card{
+        display: flex;
+        background-color: #fff;
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
