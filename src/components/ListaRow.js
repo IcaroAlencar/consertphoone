@@ -14,7 +14,7 @@ const Lista = () =>  {
                     backgroundSize:  'auto',
                     backgroundPosition: 'center',
                     backgroundImage: `url(${clientes})`,
-                    backgroundPosition: "0px 0px"  
+                    //backgroundPosition: "0px 0px"  
                   
                 }}>
                     
@@ -24,7 +24,7 @@ const Lista = () =>  {
                     backgroundSize: 'auto',
                     backgroundPosition: 'center',
                     backgroundImage: `url(${pecas})`,
-                    backgroundPosition: "-100px 0px"  
+                    //backgroundPosition: "-100px 0px"  
                 }}>
                     
             </section>
@@ -36,7 +36,6 @@ const Lista = () =>  {
                     backgroundPosition: 'center',
                     backgroundImage: `url(${servico})`,
                 }}>
-                    <h1>Ordens Serviços</h1>
                     
             </section>
 
@@ -46,9 +45,9 @@ const Lista = () =>  {
     );
 }
 
-
+/*
 function executaAcao(){
     alert("Eu vou para o Google");
 }
-
+*/
 export default Lista;
